@@ -13,8 +13,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
-//Anotación
-@WebServlet({"/producto.xls","/productohtml"})
+//Implementacion el Path
+@WebServlet({"/clientes.xls","/clienteshtml"})
 
 public class ClientesXls extends HttpServlet {
 
@@ -59,7 +59,9 @@ public class ClientesXls extends HttpServlet {
             out.println("<td>" +p.getIdcliente()+"</td>");
             out.println("<td>" +p.getNombre()+"</td>");
             out.println("<td>" +p.getapellido()+"</td>");
+            out.println("<td>" +p.getEdad()+"</td>");
             out.println("<td>" +p.getTelefono()+"</td>");
+            out.println("<td>" +p.getGenero()+"</td>");
             out.println("</tr>");
 
         });

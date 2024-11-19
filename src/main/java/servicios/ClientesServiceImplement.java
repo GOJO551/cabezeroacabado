@@ -10,9 +10,9 @@ public class ClientesServiceImplement implements ClientesServices {
 
     @Override
     public List<Clientes> listar() {
-        return Arrays.asList(new Clientes(1,"ivan","cabrera",22,"511","masculino"),
-                new Clientes(2,"juan","cabrera",22,"511","masculino"),
-                new Clientes(12,"carlos","cabrera",22,"511","masculino")
+        return Arrays.asList(new Clientes(1,"Ivan","Cabrera",22,233215,"Masculino"),
+                new Clientes(2,"Juan","Cabrera",22,25664,"Masculino"),
+                new Clientes(12,"Carlos","Cabrera",22,22366,"Masculino")
                );
     }
 }
